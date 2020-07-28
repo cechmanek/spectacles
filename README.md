@@ -2,26 +2,25 @@
 
 Computer Vision in Golang.
 
-#List of Modules:
+# List of Modules:
 
-##Camera
+## Camera
   including camera models for image correction and projection
-##Core
+## Core
   including basic image structures and operations
-##Drawing
+## Drawing
   including interaction tools to manual image annotation
-##Features
+## Features
   including point features, lines, edges, and image descriptors
-##Geometry
+## Geometry
   including Lie groups SO2 and SO3
-##Io
+## Io
   including image and vidieo loading, compression, saving and display
-##Kernels
+## Kernels
   including morphology operators, kernel filters
-##Math
+## Math
   including basic functions and operations
-##Video
+## Video
   including video processing techniques
-##Volumes
+## Volumes
   including voxels and oct maps
-
