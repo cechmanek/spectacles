@@ -1,3 +1,3 @@
-module github.com/cechmanek/spectacles
+module spectacles
 
 go 1.14
