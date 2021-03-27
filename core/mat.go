@@ -1,9 +1,8 @@
-//package core
-package main
+package core
 
 import (
 	"image"
-	"fmt"
+	//"fmt"
 )
 
 // encapsulate the image.Image interface.
@@ -48,12 +47,20 @@ func Eye2(size int) Mat {
 	return *m
 }
 
+// doesn't compile as Mat is defined with [][][]
+/*
+func Eye3(size int) Mat {
+	m := new(Mat)
+	m.data = make([]int, size*size) // store 2D array as 1D, then hande indexing via Mat.at() logic
+	return *m
+}
+*/
 
 func Ones(rows int, cols int) Mat {
 	return *new(Mat)
 }
 
-
+/*
 func main() {
 	a := Eye(3)
 	fmt.Printf("'t' type for *Mat: %t \n", a)
@@ -64,3 +71,4 @@ func main() {
 	fmt.Printf("'t' type for Mat: %t \n", b)
 	fmt.Printf("'T' type for Mat: %T \n", b)
 }
+*/
