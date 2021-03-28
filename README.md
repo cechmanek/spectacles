@@ -9,7 +9,7 @@ Computer Vision in Golang.
 ## Core
   including basic image structures and operations
 ## Drawing
-  including interaction tools to manual image annotation
+  including interactive tools for manual image annotation
 ## Features
   including point features, lines, edges, and image descriptors
 ## Geometry
